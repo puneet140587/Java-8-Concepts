@@ -6,7 +6,7 @@ interface Calculator {
 
 	/* void sum(int input); */
 
-	int substract(int i1, int i2);
+	int substraction(int i1, int i2);
 }
 
 public class CalculatorImpl {
@@ -32,7 +32,7 @@ public class CalculatorImpl {
 			}
 		};
 
-		System.out.println(calculator.substract(8, 20));
+		System.out.println(calculator.substraction(8, 20));
 	}
 
 	// () -> {body};
